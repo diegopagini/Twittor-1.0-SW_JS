@@ -8,7 +8,7 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 
 //Cache estatico.
 const APP_SHELL = [
-	'/',
+	// '/', solo en desarrollo, luego comentar
 	'index.html',
 	'css/style.css',
 	'img/favicon.ico',
