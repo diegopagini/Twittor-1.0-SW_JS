@@ -1,14 +1,13 @@
 /** @format */
 var url = window.location.href;
-// var sWLocation = '/Twittor-SW_JS';
-var sWLocation = '/twittor/sw.js';
+var swLocation = '/Twittor-SW_JS';
 
 // Instalar SW.
 if (navigator.serviceWorker) {
 	if (url.includes('localhost')) {
-		sWLocation = '/sw.js';
+		swLocation = '/sw.js';
 	}
-	navigator.serviceWorker.register(sWLocation);
+	navigator.serviceWorker.register(swLocation);
 }
 
 // Referencias de jQuery
