@@ -1,6 +1,7 @@
 /** @format */
 var url = window.location.href;
-var sWLocation = '/Twittor-SW_JS';
+// var sWLocation = '/Twittor-SW_JS';
+var swLocation = '/twittor/sw.js';
 
 // Instalar SW.
 if (navigator.serviceWorker) {
